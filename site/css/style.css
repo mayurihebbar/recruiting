@@ -541,7 +541,6 @@ textarea:focus {
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    text-transform: uppercase;
     padding: 100px 0;
     color: #fff;
 }
@@ -565,10 +564,6 @@ textarea:focus {
 	text-transform: none;
 }
 #index-button {
-	position:relative;
-	top: 200px;
-	border: none;
-	text-transform: none;
 }
 
 /*Media*/
