@@ -564,10 +564,9 @@ textarea:focus {
 	position:absolute;
 	text-transform: none;
 }
-#indexbutton {
-	float:left;
-	position: absolute;
-	top: 500px;
+#index-button {
+	position:relative;
+	top: 200px;
 	border: none;
 	text-transform: none;
 }
