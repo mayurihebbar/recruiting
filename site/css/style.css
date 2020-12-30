@@ -1431,7 +1431,7 @@ textarea:focus {
 }
 
 .team-wrapper:hover .team-member::before {
-    background: rgba(33, 40, 45, 0.55);
+    background:  rgb(139, 156, 151, 55%);
 }
 
 .team-wrapper:hover .team-icon > a {
@@ -1488,7 +1488,7 @@ textarea:focus {
 
 .team-icon > a:hover {
     background: #fff;
-    color: #666
+    color:  #177B57
 }
 .team-wrapper:hover .team-icon > a {
     opacity: 1;
