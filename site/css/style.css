@@ -1426,7 +1426,9 @@ textarea:focus {
 /*Team*/
 
 .team-wrapper {
-    border: 1px solid #e7e7e7;
+	display:block;
+	height: 500px;
+	border: 1px solid #e7e7e7;
 }
 
 .team-wrapper:hover .team-member::before {
