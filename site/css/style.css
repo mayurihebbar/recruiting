@@ -1426,8 +1426,7 @@ textarea:focus {
 /*Team*/
 
 .team-wrapper {
-	display:block;
-	height: 500px;
+	display: block;
 	border: 1px solid #e7e7e7;
 }
 
