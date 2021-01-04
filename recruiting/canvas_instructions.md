@@ -1,48 +1,46 @@
 # Canvas Recruiting
 
-Hey! Thanks for helping us collect emails for recruiting. I promise it's easy.
+Hey! Thanks for helping us collect emails for recruiting. This will take around 5 minutes.
 
 The classes we need names from are:
 
-UGBA 96
+- UGBA 96
 
-UGBA 10
+- UGBA 10
 
-UGBA 88
+- UGBA 88
 
-Econ 1
+- Econ 1
 
-Econ 2
+- Econ 2
 
-Econ 100A
+- Econ 100A
 
-Econ 101A
+- Econ 101A
 
-Econ 100B
+- Econ 100B
 
-Math 16A
+- Math 16A
 
-Math 16B
+- Math 16B
 
-Math 1A
+- Math 1A
 
-Math 1B
+- Math 1B
 
-Stat C8
+- Stat C8
 
-~~Stat 20~~
+- ~~Stat 20~~
 
-Stat 88
+- Stat 88
 
-EE16A
+- EE16A
 
-Math 53
+- Math 53
 
-Math 54
+- Math 54
 
-CS 61A
-
-
+- CS 61A
 
 Here are the instructions:
 
