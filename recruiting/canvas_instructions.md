@@ -12,8 +12,10 @@ Check this [sheet](https://docs.google.com/spreadsheets/d/1lSrrHcgt_5UpUJpAE4KqY
 
 3. **Scroll down** to the **bottom**, making sure that every name is loaded.
 
-4. Hit the Save as MHTML extension. A ``.mhtml`` version of the site should download. Rename the file in the format "semester_class", e.g. ``fa20_stat20.mhtml``.
+4. Select **students** in the roles panel. **Be sure to unselect instructors.**
 
-5. Upload the file at this [Drive link](https://drive.google.com/drive/folders/1bSB4TCswGV5WMLQbOMRL9Fh981_JkagW?usp=sharing).
+5. Hit the Save as MHTML extension. A ``.mhtml`` version of the site should download. Rename the file in the format "semester_class", e.g. ``fa20_stat20.mhtml``.
+
+6. Upload the file at this [Drive link](https://drive.google.com/drive/folders/1bSB4TCswGV5WMLQbOMRL9Fh981_JkagW?usp=sharing).
 
 That's it! Thanks a ton.
