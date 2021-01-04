@@ -48,7 +48,7 @@ Here are the instructions:
 
 2. Go to your class on Canvas and find the "People" page.
 
-   ![](guide\bcourses.png)
+   ![](\guide\bcourses.png)
 
 3. **Scroll down** to the **bottom**, making sure that every name is loaded.
 
