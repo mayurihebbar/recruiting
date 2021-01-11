@@ -536,7 +536,7 @@ textarea:focus {
 
 #index-image {
 	position: relative;
-	background-image: url(../images/slider/indeximg.jpg);
+	background-image: url(../images/backgrounds/index.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1715,7 +1715,7 @@ background: rgba(0, 0, 0, 0.7);
 }
 #recruiting-image {
 	position: relative;
-	background-image: url(../images/recruiting/newclasscropped.jpg);
+	background-image: url(../images/backgrounds/joinus.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1727,7 +1727,7 @@ background: rgba(0, 0, 0, 0.7);
 
 #contactus-image {
 	position: relative;
-	background-image: url(../images/recruiting/contactimage.jpg);
+	background-image: url(../images/backgrounds/contactus.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
