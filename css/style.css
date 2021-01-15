@@ -1725,6 +1725,19 @@ background: rgba(0, 0, 0, 0.7);
     color: #fff;
 }
 
+#members-image {
+	position: relative;
+	background-image: url(../images/backgrounds/members.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    text-transform: uppercase;
+    padding: 100px 0;
+    color: #fff;
+}
+
+
 #contactus-image {
 	position: relative;
 	background-image: url(../images/backgrounds/contactus.jpg);
