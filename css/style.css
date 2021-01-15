@@ -1843,14 +1843,14 @@ background: rgba(0, 0, 0, 0.7);
 }
 #timeline .timeline-badge {
   color: #fff;
-  width: 56px;
-  height: 56px;
+  width: 30px;
+  height: 30px;
   font-size: 1.2em;
   text-align: center;
   position: absolute;
-  top: 27px;
+  top: 50px;
   left: 50%;
-  margin-left: -28px;
+  margin-left: -15px;
   background-color: #177B57;
   z-index: 100;
   border-top-right-radius: 50%;
