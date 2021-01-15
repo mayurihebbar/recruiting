@@ -8,7 +8,7 @@ First, we want to gather an up-to-date list of all Berkeley emails. There's a fa
 
 1. Log in to your Berkeley gmail.
 
-2. Underneath apps, click on "contacts" and go to the [directory](https://contacts.google.com/u/2/directory).
+2. Underneath apps, click on "contacts" and go to the [directory](https://contacts.google.com/u/0/directory).
 
 3. Open Developer Tools ("More tools" -> "Developer tools" or Ctrl+Shift+I). Open the Console.
 
