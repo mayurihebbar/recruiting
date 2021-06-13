@@ -113,7 +113,7 @@ textarea:focus {
   -ms-transform: translateY(-50%);
 }
 
-.equal {  
+.equal {
     display: -webkit-flex;
     display: flex;
 }
@@ -482,7 +482,7 @@ textarea:focus {
 }
 
 #slider.flexslider .slides > li img {
-	
+
 }
 
 /*Slider Caption*/
@@ -979,7 +979,7 @@ textarea:focus {
 
 #service .col-md-6 {
 	padding: 0;
-	
+
 }
 
 #service .service-heading {
@@ -1013,38 +1013,38 @@ textarea:focus {
 	position: relative;
 	width: 50%;
 	float: right;
-	background: #f2f3f4;	
+	background: #f2f3f4;
 }
 
 .services-style-one .service-block {
 	position: relative;
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 }
 
 .services-style-one .services-column .content-outer {
 	position: relative;
 	float: right;
 	max-width: 700px;
-	padding: 80px 20px 40px 40px;	
+	padding: 80px 20px 40px 40px;
 }
 
 .services-style-one .services-column .icon-box {
 	font-size: 36px;
 	margin-bottom: 15px;
 	line-height: 1px;
-	color: #177B57;	
+	color: #177B57;
 }
 
 .services-style-one .services-column h4 {
 	font-size: 14px;
 	margin-bottom: 10px;
-	color: #1c1c1c;	
+	color: #1c1c1c;
 }
 
 .services-style-one .services-column .text {
 	font-size: 13px;
 	color: #5a5a5a;
-	max-width: 250px;	
+	max-width: 250px;
 }
 
 .services-style-one .content-column {
@@ -1059,7 +1059,7 @@ textarea:focus {
 	position: relative;
 	float:left;
 	padding: 170px 20px 100px 320px;
-	max-width: 700px;	
+	max-width: 700px;
 }
 
 .services-style-one .content-column .sec-title h2 {
@@ -1148,7 +1148,7 @@ textarea:focus {
 	}
 
 	.services-style-one .content-column .content-box {
-		padding: 200px 20px 100px 20px;	
+		padding: 200px 20px 100px 20px;
 	}
 }
 
@@ -1163,7 +1163,7 @@ textarea:focus {
 	}
 
 	.services-style-one .content-column .content-box {
-		padding: 200px 20px 100px 20px;	
+		padding: 200px 20px 100px 20px;
 	}
 }
 
@@ -1674,7 +1674,7 @@ textarea:focus {
     }
   }
   > thead > tr {
-    > th, 
+    > th,
     > td {
       border-bottom-width: 2px;
     }
@@ -1706,7 +1706,7 @@ width: 100%;
 position: absolute;
 top: 0px;
 left: 0px;
-background: rgba(0, 0, 0, 0.7);    
+background: rgba(0, 0, 0, 0.7);
 }
 .whitecontent {
  color: white;
@@ -2105,7 +2105,7 @@ table.table-bordered > tbody > tr > td{
   }
 
   .careersTable{
-  	
+
 
     margin-left: auto;
     margin-right: auto;
@@ -2373,5 +2373,5 @@ table.table-bordered > tbody > tr > td{
   }
 
 
-  
+
 }
