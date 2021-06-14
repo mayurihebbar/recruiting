@@ -1127,7 +1127,6 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6255,6 +6254,7 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
+  background-color:white;
   position: relative;
 }
 .carousel-inner {
@@ -6341,34 +6341,34 @@ button.close {
   left: 0;
   width: 15%;
   font-size: 20px;
-  color: #fff;
+  color: black;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-  background-color: rgba(0, 0, 0, 0);
-  filter: alpha(opacity=50);
-  opacity: .5;
+  background-color: rgba(255, 255, 255, 0);
+  filter: alpha(opacity=20);
+  opacity: .2;
 }
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
-  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .5)), to(rgba(255, 255, 255, .0001)));
+  background-image:         linear-gradient(to right, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, .0001) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
   background-repeat: repeat-x;
 }
 .carousel-control.right {
   right: 0;
   left: auto;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
-  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+  background-image:      -o-linear-gradient(left, rgba(255, 255, 255, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .0001)), to(rgba(255, 255, 255, .5)));
+  background-image:         linear-gradient(to right, rgba(255, 255, 255, .0001) 0%, rgba(255, 255, 255, .5) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x;
 }
 .carousel-control:hover,
 .carousel-control:focus {
-  color: #fff;
+  color: black;
   text-decoration: none;
   filter: alpha(opacity=90);
   outline: 0;
@@ -6425,8 +6425,8 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
   border: 1px solid #fff;
   border-radius: 10px;
 }
@@ -6434,12 +6434,14 @@ button.close {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #fff;
+  background-color: #444;
 }
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  top:20%;
+  width:40%;
+  bottom: 20%;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -6470,8 +6472,10 @@ button.close {
     margin-right: -10px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+    right: 15%;
+    left: auto;
+    bottom: 10%;
+    top:auto;
     padding-bottom: 30px;
   }
   .carousel-indicators {
