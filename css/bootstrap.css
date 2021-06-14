@@ -6334,12 +6334,15 @@ button.close {
 .carousel-inner > .active.right {
   left: 100%;
 }
+
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+
 .carousel-control {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
   font-size: 20px;
   color: black;
   text-align: center;
@@ -6409,7 +6412,7 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: -10%;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -6479,7 +6482,7 @@ button.close {
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: -50px;
   }
 }
 .clearfix:before,
