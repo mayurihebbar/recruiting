@@ -105,6 +105,16 @@ textarea:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
 }
+
+.about-text h3 {
+  position:relative;
+  top:30%;
+	font-size: 36px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
 .about-text p {
   position:relative;
   top:40%;
