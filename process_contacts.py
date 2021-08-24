@@ -20,12 +20,8 @@ with open("raw_contact.txt", 'r', encoding='utf-8-sig') as inFile, open("contact
 
         # check for formatting
         if len(chunks) > 8:
-
             # parse and write data
-            name = chunks[1].strip(".\" ")
-            email = chunks[5].strip("\"")
-            outWriter.writerow([name, email])
-                        
-    
-    
-    
+            name = chunks[5].strip(".\" ")
+            email = chunks[17].strip("\"")
+            if len(email) > 0 and "@berkeley.edu" in email:
+                outWriter.writerow([name, email])

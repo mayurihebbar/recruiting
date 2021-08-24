@@ -17,18 +17,32 @@ with open("contacts.csv", 'r', encoding='utf-8-sig') as contactsFile:
 
 # iterate through emails
 found_emails = []
+found_names = []
 with open("canvas_names.txt", 'r') as contacts:
     for name in contacts:
         if name.strip() in emails:
+            emailcand = emails[name.strip()]
             # don't add duplicates (avoid mismatches)
-            if len(emails[name.strip()]) == 1:
-                found_emails.append(emails[name.strip()][0])
+            if len(emailcand) == 1:
+                email = emailcand[0]
+                if email not in found_emails:
+                    found_emails.append(email)
+                    found_names.append(name.strip())
 
 # remove dupes
-found_emails = set(found_emails)
+# found_emails = set(found_emails)
 print("found", len(found_emails), "emails")
+# found_names = set(found_names)
+print("found", len(found_names), "names")
 
 # write out
 with open("canvas_emails.txt", 'w') as outFile:
     for email in found_emails:
         outFile.write(email + "\n")
+
+# write out to csv
+with open("canvas_emails.csv", 'w') as outFile:
+    outWriter = csv.writer(outFile, lineterminator="\n")
+    outWriter.writerow(["name", "email"])
+    for email, name in zip(found_emails, found_names):
+        outWriter.writerow([name, email])
